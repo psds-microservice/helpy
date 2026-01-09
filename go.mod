@@ -1,4 +1,4 @@
-module api-gateway
+module helpy
 
 go 1.24.0
 
