@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package common;
-option go_package = "helpy";
+option go_package = "github.com/haqury/helpy";
 
 // Общий ответ API
 message ApiResponse {
