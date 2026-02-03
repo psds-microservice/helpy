@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package common;
-option go_package = "github.com/haqury/helpy";
+option go_package = "github.com/psds-microservice/helpy";
 
 // Общий ответ API
 message ApiResponse {
