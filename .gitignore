@@ -1,10 +1,41 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
 
-.vscode/
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+/coverage.out
+
+# Env
+.env
+.env.local
+
+# IDE
 .idea/
+*.iml
+.vscode/
 *.xml
 *.swp
 *.swo
 *~
+
+# Go
+/vendor/
+
+# Proto build artifacts (generated code is committed)
+*.pb
+pkg/gen/*/rawdesc.txt
+
+# OS
 .DS_Store
 Thumbs.db
 
+# Logs
+*.log
